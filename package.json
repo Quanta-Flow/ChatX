@@ -23,7 +23,7 @@
         "build:linux": "electron-vite build && electron-builder --linux"
     },
     "dependencies": {
-        "@ant-design/icons": "^5.6.1",
+        "@ant-design/icons": "^6.0.0",
         "@ant-design/x": "^1.0.6",
         "@electron-toolkit/preload": "^3.0.1",
         "@electron-toolkit/utils": "^4.0.0",
