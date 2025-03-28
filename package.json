@@ -32,7 +32,7 @@
         "antd-style": "^3.7.1",
         "classnames": "^2.5.1",
         "electron-updater": "^6.3.9",
-        "lucide-react": "^0.483.0",
+        "lucide-react": "^0.484.0",
         "mermaid": "^11.5.0",
         "ollama": "^0.5.14",
         "react-markdown": "^10.1.0",
