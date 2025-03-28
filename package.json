@@ -31,7 +31,7 @@
         "antd": "^5.24.4",
         "antd-style": "^3.7.1",
         "classnames": "^2.5.1",
-        "electron-updater": "^6.3.9",
+        "electron-updater": "^6.6.2",
         "lucide-react": "^0.484.0",
         "mermaid": "^11.5.0",
         "ollama": "^0.5.14",
