@@ -16,10 +16,10 @@ importers:
         version: 1.0.6(antd@5.24.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@electron-toolkit/preload':
         specifier: ^3.0.1
-        version: 3.0.1(electron@35.1.2)
+        version: 3.0.1(electron@35.1.5)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
-        version: 4.0.0(electron@35.1.2)
+        version: 4.0.0(electron@35.1.5)
       ahooks:
         specifier: ^3.8.4
         version: 3.8.4(react@18.3.1)
@@ -100,8 +100,8 @@ importers:
         specifier: ^3.3.0
         version: 3.3.0(@types/node@22.13.14)(typescript@5.8.2)
       electron:
-        specifier: ^35.1.2
-        version: 35.1.2
+        specifier: ^35.1.5
+        version: 35.1.5
       electron-builder:
         specifier: ^26.0.12
         version: 26.0.12(electron-builder-squirrel-windows@25.1.8)
@@ -2079,6 +2079,10 @@ packages:
     resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
+  dotenv@16.5.0:
+    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
+    engines: {node: '>=12'}
+
   dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
     engines: {node: '>= 0.4'}
@@ -2122,8 +2126,8 @@ packages:
       '@swc/core':
         optional: true
 
-  electron@35.1.2:
-    resolution: {integrity: sha512-ipYSDZEV3+PpHfJ8/oWlpMCvxwutX6xLvBz2HRPgEzSFzgLmGO7YXTjEow4DhDtCpGE+b95NTGoJaRAVQi5n7A==}
+  electron@35.1.5:
+    resolution: {integrity: sha512-LolvbKKQUSCGvEwbEQNt1cxD1t+YYClDNwBIjn4d28KM8FSqUn9zJuf6AbqNA7tVs9OFl/EQpmg/m4lZV1hH8g==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -5273,17 +5277,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@electron-toolkit/preload@3.0.1(electron@35.1.2)':
+  '@electron-toolkit/preload@3.0.1(electron@35.1.5)':
     dependencies:
-      electron: 35.1.2
+      electron: 35.1.5
 
   '@electron-toolkit/tsconfig@1.0.1(@types/node@22.13.14)':
     dependencies:
       '@types/node': 22.13.14
 
-  '@electron-toolkit/utils@4.0.0(electron@35.1.2)':
+  '@electron-toolkit/utils@4.0.0(electron@35.1.5)':
     dependencies:
-      electron: 35.1.2
+      electron: 35.1.5
 
   '@electron/asar@3.2.18':
     dependencies:
@@ -6344,7 +6348,7 @@ snapshots:
       config-file-ts: 0.2.8-rc1
       debug: 4.4.0
       dmg-builder: 26.0.12(electron-builder-squirrel-windows@25.1.8)
-      dotenv: 16.4.7
+      dotenv: 16.5.0
       dotenv-expand: 11.0.7
       ejs: 3.1.10
       electron-builder-squirrel-windows: 25.1.8(dmg-builder@26.0.12)
@@ -7293,6 +7297,8 @@ snapshots:
 
   dotenv@16.4.7: {}
 
+  dotenv@16.5.0: {}
+
   dunder-proto@1.0.1:
     dependencies:
       call-bind-apply-helpers: 1.0.2
@@ -7385,7 +7391,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@35.1.2:
+  electron@35.1.5:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 22.13.14
