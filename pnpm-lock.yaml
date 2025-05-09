@@ -70,8 +70,8 @@ importers:
         specifier: ^19.8.0
         version: 19.8.0(@types/node@22.13.14)(typescript@5.8.2)
       '@commitlint/config-conventional':
-        specifier: ^19.8.0
-        version: 19.8.0
+        specifier: ^19.8.1
+        version: 19.8.1
       '@electron-toolkit/eslint-config-prettier':
         specifier: ^3.0.0
         version: 3.0.0(eslint@9.23.0(jiti@2.4.2))(prettier@3.5.3)
@@ -343,8 +343,8 @@ packages:
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@19.8.0':
-    resolution: {integrity: sha512-9I2kKJwcAPwMoAj38hwqFXG0CzS2Kj+SAByPUQ0SlHTfb7VUhYVmo7G2w2tBrqmOf7PFd6MpZ/a1GQJo8na8kw==}
+  '@commitlint/config-conventional@19.8.1':
+    resolution: {integrity: sha512-/AZHJL6F6B/G959CsMAzrPKKZjeEiAVifRyEwXxcT6qtqbPwGw+iQxmNS+Bu+i09OCtdNRW6pNpBvgPrtMr9EQ==}
     engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.8.0':
@@ -405,6 +405,10 @@ packages:
 
   '@commitlint/types@19.8.0':
     resolution: {integrity: sha512-LRjP623jPyf3Poyfb0ohMj8I3ORyBDOwXAgxxVPbSD0unJuW2mJWeiRfaQinjtccMqC5Wy1HOMfa4btKjbNxbg==}
+    engines: {node: '>=v18'}
+
+  '@commitlint/types@19.8.1':
+    resolution: {integrity: sha512-/yCrWGCoA1SVKOks25EGadP9Pnj0oAIHGpl2wH2M2Y46dPM2ueb8wyCVOD7O3WCTkaJ0IkKvzhl1JY7+uCT2Dw==}
     engines: {node: '>=v18'}
 
   '@develar/schema-utils@2.6.5':
@@ -2042,6 +2046,10 @@ packages:
     resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
     engines: {node: '>=8'}
 
+  detect-libc@2.0.4:
+    resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
+    engines: {node: '>=8'}
+
   detect-node@2.1.0:
     resolution: {integrity: sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==}
 
@@ -2077,6 +2085,10 @@ packages:
 
   dotenv@16.4.7:
     resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+    engines: {node: '>=12'}
+
+  dotenv@16.5.0:
+    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
     engines: {node: '>=12'}
 
   dunder-proto@1.0.1:
@@ -3548,6 +3560,10 @@ packages:
 
   node-abi@3.74.0:
     resolution: {integrity: sha512-c5XK0MjkGBrQPGYG24GBADZud0NCbznxNx0ZkS+ebUTrmV1qTDxPxSL8zEAPURXSbLRWVexxmP4986BziahL5w==}
+    engines: {node: '>=10'}
+
+  node-abi@3.75.0:
+    resolution: {integrity: sha512-OhYaY5sDsIka7H7AtijtI9jwGYLyl29eQn/W623DiN/MIv5sUqc4g7BIDThX+gb7di9f6xK02nkp8sdfFWZLTg==}
     engines: {node: '>=10'}
 
   node-addon-api@1.7.2:
@@ -5151,19 +5167,19 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@19.8.0':
+  '@commitlint/config-conventional@19.8.1':
     dependencies:
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       conventional-changelog-conventionalcommits: 7.0.2
 
   '@commitlint/config-validator@19.8.0':
     dependencies:
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       ajv: 8.17.1
 
   '@commitlint/ensure@19.8.0':
     dependencies:
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       lodash.camelcase: 4.3.0
       lodash.kebabcase: 4.1.1
       lodash.snakecase: 4.1.1
@@ -5179,7 +5195,7 @@ snapshots:
 
   '@commitlint/is-ignored@19.8.0':
     dependencies:
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       semver: 7.7.1
 
   '@commitlint/lint@19.8.0':
@@ -5209,7 +5225,7 @@ snapshots:
 
   '@commitlint/parse@19.8.0':
     dependencies:
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       conventional-changelog-angular: 7.0.0
       conventional-commits-parser: 5.0.0
 
@@ -5224,7 +5240,7 @@ snapshots:
   '@commitlint/resolve-extends@19.8.0':
     dependencies:
       '@commitlint/config-validator': 19.8.0
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       global-directory: 4.0.1
       import-meta-resolve: 4.1.0
       lodash.mergewith: 4.6.2
@@ -5235,7 +5251,7 @@ snapshots:
       '@commitlint/ensure': 19.8.0
       '@commitlint/message': 19.8.0
       '@commitlint/to-lines': 19.8.0
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
 
   '@commitlint/to-lines@19.8.0': {}
 
@@ -5244,6 +5260,11 @@ snapshots:
       find-up: 7.0.0
 
   '@commitlint/types@19.8.0':
+    dependencies:
+      '@types/conventional-commits-parser': 5.0.1
+      chalk: 5.4.1
+
+  '@commitlint/types@19.8.1':
     dependencies:
       '@types/conventional-commits-parser': 5.0.1
       chalk: 5.4.1
@@ -5351,10 +5372,10 @@ snapshots:
       '@malept/cross-spawn-promise': 2.0.0
       chalk: 4.1.2
       debug: 4.4.0
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
       fs-extra: 10.1.0
       got: 11.8.6
-      node-abi: 3.74.0
+      node-abi: 3.75.0
       node-api-version: 0.2.1
       node-gyp: 9.4.1
       ora: 5.4.1
@@ -6344,7 +6365,7 @@ snapshots:
       config-file-ts: 0.2.8-rc1
       debug: 4.4.0
       dmg-builder: 26.0.12(electron-builder-squirrel-windows@25.1.8)
-      dotenv: 16.4.7
+      dotenv: 16.5.0
       dotenv-expand: 11.0.7
       ejs: 3.1.10
       electron-builder-squirrel-windows: 25.1.8(dmg-builder@26.0.12)
@@ -7236,6 +7257,8 @@ snapshots:
 
   detect-libc@2.0.3: {}
 
+  detect-libc@2.0.4: {}
+
   detect-node@2.1.0:
     optional: true
 
@@ -7292,6 +7315,8 @@ snapshots:
       dotenv: 16.4.7
 
   dotenv@16.4.7: {}
+
+  dotenv@16.5.0: {}
 
   dunder-proto@1.0.1:
     dependencies:
@@ -9297,6 +9322,10 @@ snapshots:
   negotiator@0.6.4: {}
 
   node-abi@3.74.0:
+    dependencies:
+      semver: 7.7.1
+
+  node-abi@3.75.0:
     dependencies:
       semver: 7.7.1
 
